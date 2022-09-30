@@ -24,6 +24,7 @@ function App(props: PropsType) {
         setTodos([])
     }
 
+
     return (
         <div className="App">
             <button onClick={onClickHandler}>Clean</button>
@@ -41,5 +42,6 @@ function App(props: PropsType) {
         </div>
     );
 }
+
 
 export default App;
