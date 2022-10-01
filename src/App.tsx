@@ -5,12 +5,12 @@ import './App.css';
 
 type PropsType = {
     userId: number
-
     title: string
     completed: boolean
+    id: number
 }
 
-function App(props: PropsType) {
+function App() {
     const [todos, setTodos] = useState<Array<PropsType>>([])
 
 
